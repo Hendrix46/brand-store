@@ -46,7 +46,7 @@ export function FeaturesCard({id, title, description, price, discountPercentage,
                 <Group gap={30}>
 
                     <Button radius="xl" style={{ flex: 1 }}>
-                        Buy now
+                        Details
                     </Button>
                 </Group>
             </Card.Section>
