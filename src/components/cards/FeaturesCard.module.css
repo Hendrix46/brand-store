@@ -1,0 +1,23 @@
+.card {
+    background-color: var(--mantine-color-body);
+}
+
+.imageSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--mantine-color-gray-3);
+}
+
+.label {
+    line-height: 1;
+    font-weight: 700;
+    font-size: var(--mantine-font-size-xs);
+    letter-spacing: -0.25px;
+    text-transform: uppercase;
+}
+
+.section {
+    padding: 12px var(--mantine-spacing-md);
+    border-top: 1px solid var(--mantine-color-gray-3);
+}
