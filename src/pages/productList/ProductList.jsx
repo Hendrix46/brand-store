@@ -129,9 +129,8 @@ export const ProductList = () => {
                                 </Text>
                             </div>
 
-                            <Button bg='red' p={8}>
+                            <Button bg='red' p={8} onClick={()=> dispatch(removeFromCart({id: item.id}))}>
                                 <IconTrash
-                                    onClick={()=> dispatch(removeFromCart({id: item.id}))}
                                     style={{ width: 16, height: 16 }}
                                     stroke={1.5}
                                 />
