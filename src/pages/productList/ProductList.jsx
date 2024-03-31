@@ -175,7 +175,7 @@ export const ProductList = () => {
                         onChange={(val)=> setFilterByStock(val)}
                     />
                 </Group>
-                <SimpleGrid cols={4}>
+                <SimpleGrid cols={{ base: 1, xs: 2, sm: 2, md: 4 }}>
                     {products.map(product => (
                         <FeaturesCard
                             key={product.id}
