@@ -1,7 +1,12 @@
 .card {
     background-color: var(--mantine-color-body);
 }
-
+.title {
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+}
 .imageSection {
     display: flex;
     align-items: center;
